@@ -22,7 +22,7 @@ class Home(TemplateView):
 
 
 
-@method_decorator(login_required, name='dispatch')
+# @method_decorator(login_required, name='dispatch')
 class RoutineList(TemplateView):
     template_name = 'routine_list.html'
 
@@ -56,7 +56,7 @@ class About(TemplateView):
 
 
 
-@method_decorator(login_required, name='dispatch')
+# @method_decorator(login_required, name='dispatch')
 class BodypartList(TemplateView):
     template_name = 'workout_list.html'
 
